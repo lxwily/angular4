@@ -1,0 +1,24 @@
+<div class="row login_wrap">
+  <div class="col-xs-12 col-sm-9 col-md-7 col-lg-4 login">
+      
+      <div class="login_bg"></div>
+      <div class="login_form">
+          <h3>iPMS</h3>
+          <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-user"></span>
+              <input type="text" class="form-control" placeholder="请输入登录用户名" [(ngModel)]="user.admin" aria-describedby="basic-addon1">
+            </div>
+          <div class="input-group">
+              <span class="input-group-addon glyphicon glyphicon-lock" id="basic-addon1"></span>
+              <input type="password" class="form-control" placeholder="请输入登录密码" (keyup.enter)="loginIn()" [(ngModel)]="user.pass" aria-describedby="basic-addon1">
+          </div>
+          <button type="button" class="btn btn-primary login_btn" (click)="loginIn()">登录</button>
+          <div class="login_copyright">
+            @广州万迅电脑软件有限公司
+          </div>
+      </div>
+      <alert *ngIf="loginIsTrue"  class="login_alert" [type]="alertMain.type">
+          <strong>{{alertMain.content}}</strong>
+        </alert>
+  </div>
+</div>

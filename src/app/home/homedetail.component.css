@@ -1,0 +1,64 @@
+.homedetail_header{
+    width:100%;
+    height:200px;
+    background:linear-gradient(#c1f1ff,#bfddf9);
+}
+.header_title{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    border-bottom : 1px solid #fff;
+    text-indent: 15px;
+}
+.detail_data{
+    width:100%;
+    list-style: none;
+    height:150px;
+}
+.detail_data li{ float:left;width:25%;border-right:1px solid #fff;}
+.detail_data p{padding-right:40px;text-align: right;display: block;width:100%;}
+.detail_data .detail_number{height:80px;font-size: 60px;}
+
+.detail_vip{
+    width:90%;
+    margin:0 5%;
+    height:200px;
+    background:linear-gradient(#c1f1ff,#bfddf9);
+    border-radius: 5px;
+}
+.detail_vip_header{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    border-bottom: 1px solid #fff;
+}
+.detail_vip_title{
+    margin-left:15px;
+    float: left;
+}
+.detail_vip_status{
+    float: right;
+}
+.detail_vip_status span{padding:6px;background-color:#000;border-radius: 15px;color:#fff;margin-right: 15px;}
+.detail_vip_list{
+    margin:0 15px;
+}
+.detail_vip_list dl{
+    width:80px;
+    height:150px;
+    float: left;
+    margin:0 15px;
+}
+.detail_vip_list dl dt{
+    width:80px;height:80px;
+    margin-top:20px;
+}
+.detail_vip_list img{
+    width:100%;
+    height:100%;
+}
+.detail_vip_list dd{
+    width:100%;
+    text-align: center;
+    margin-top:10px;
+}

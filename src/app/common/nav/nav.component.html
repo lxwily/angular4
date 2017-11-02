@@ -1,0 +1,45 @@
+<div class="nav">
+  <div class="nav_admin">
+     
+  </div>
+  <div class="nav_main">
+    <ul>
+      <li>
+        <a routerLink="detail" routerLinkActive="active">
+          <span class="glyphicon glyphicon-th-large"></span>
+          <span>首页</span>
+        </a>
+      </li>
+      <li>
+          <a routerLink="goods" routerLinkActive="active">
+            <span class="glyphicon glyphicon-star"></span>
+            <span>商品中心</span>
+        </a>
+      </li>
+      <li>
+          <span class="glyphicon glyphicon-shopping-cart"></span>
+          <span>订单管理</span>
+      </li>
+      <li>
+        <a routerLink="member" routerLinkActive="active">
+          <span class="glyphicon glyphicon-user"></span>
+          <span>会员管理</span>
+        </a>
+      </li>
+      <li>
+          <a routerLink="editor" routerLinkActive="active">
+            <span class="glyphicon glyphicon-gift"></span>
+            <span>内容管理</span>
+          </a>
+      </li>
+      <li>
+          <span class="glyphicon glyphicon-cog"></span>
+          <span>栏目设置</span>
+      </li>
+      <li (click)="loginOut()">
+          <span class="glyphicon glyphicon-th-large"></span>
+          <span>退出</span>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.home_header{
+    width:100%;
+    height:50px;
+    background-color:#11263b;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+.home_ontent{
+    width:100%;
+    position: absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#37affd
+}
+.home_nav{
+  height:100%;
+  background:linear-gradient(#193b5a,#31455d);
+  padding:0;
+}
+.home_right{
+    padding:0;
+}
