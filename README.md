@@ -14,3 +14,7 @@
 ## 下一个版本讲更新内容
 
 商品列表
+
+# 登录效果图
+
+![0.1.0_alpha](https://github.com/lxwily/angular4/blob/master/src/assets/login.jpg)
